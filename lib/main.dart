@@ -3,13 +3,35 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     const MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
+        backgroundColor: Colors.blue,
         body: Center(
-          child: Text(
-            'Halo, nama saya Anom!',
-            style: TextStyle(
-              fontSize: 24,
-            ),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Icon(
+                Icons.person,
+                size: 80,
+                color: Colors.white,
+              ),
+              SizedBox(height: 20),
+              Text(
+                'Halo, nama saya Anom!',
+                style: TextStyle(
+                  fontSize: 24,
+                  color: Colors.white,
+                ),
+              ),
+              SizedBox(height: 10),
+              Text(
+                'Saya sedang belajar Flutter',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white,
+                ),
+              ),
+            ],
           ),
         ),
       ),
