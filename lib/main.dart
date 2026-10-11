@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,17 +16,50 @@ void main() {
                 size: 80,
                 color: Colors.white,
               ),
+
               SizedBox(height: 20),
+
               Text(
-                'Halo, nama saya Anom!',
+                'Halo, gw Anom!',
                 style: TextStyle(
-                  fontSize: 24,
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
                   color: Colors.white,
                 ),
               ),
+
               SizedBox(height: 10),
+
               Text(
-                'Saya sedang belajar Flutter',
+                'Gw lagi belajar Flutter nih!',
+                style: TextStyle(
+                  fontSize: 18,
+                  color: Colors.white,
+                ),
+              ),
+
+              SizedBox(height: 20),
+
+              Text(
+                'Mahasiswa Teknik Informatika',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.white,
+                ),
+              ),
+
+              SizedBox(height: 25),
+
+              Icon(
+                Icons.favorite,
+                size: 35,
+                color: Colors.red,
+              ),
+
+              SizedBox(height: 10),
+
+              Text(
+                'Semangat belajar coding!',
                 style: TextStyle(
                   fontSize: 16,
                   color: Colors.white,
@@ -38,7 +72,6 @@ void main() {
     ),
   );
 }
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
